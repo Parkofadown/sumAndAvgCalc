@@ -28,5 +28,5 @@ int main(){
 		printf("Number two is greater than number one.\n");
 	}
 	
-
+	return 0;
 }
