@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	double one;
+	double two;
+	double avg;
+	double sum;
+
+	printf("Enter number one: ");
+	scanf_s("%lf",&one);
+	printf("Enter number two: ");
+	scanf_s("%lf",&two);
+	sum = one + two;
+	avg = (one + two) / 2;
+	printf("The sum is %.2lf\n", sum);
+	printf("The average is %.2lf\n", avg);
+	
+
+	if (one == two){
+		printf("The numbers are equal.\n");
+	}else if (one > two)
+	{
+		printf("Number one is greater than number two.\n");
+	}else
+	{
+		printf("Number two is greater than number one.\n");
+	}
+	
+
+}
